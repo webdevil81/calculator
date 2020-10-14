@@ -8,10 +8,6 @@ body {
     padding-top: 30px;
 }
 
-#container {
-    
-}
-
 .calculator {
     max-width: 400px;
     margin: 0 auto;
@@ -19,7 +15,7 @@ body {
     border-radius: 5px;
 }
 
-.calculator input {
+.display {
     background: none;
     border: none;
     box-shadow: none;
@@ -47,19 +43,15 @@ body {
     cursor: pointer;
 }
 
-.is-Clear {
+.clear {
     grid-column: span 3;
     background: #3572D8;
 }
 
-.is-Operator {
-   
-}
-
-.is-Zero {
+.zero {
     grid-column: 1 / 4;
 }
 
-.is-equals {
+.equals {
     background: #28d060;
 }
